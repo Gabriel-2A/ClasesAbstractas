@@ -27,8 +27,7 @@ public class Rectangulo extends Figura{
 
     @Override
     public double obtenerArea() {
-
-        return 0;
+        return ancho * alto;
     }
 
     @Override
