@@ -23,6 +23,13 @@ public class Main {
         //GETTERS Y SETTERS
         // implementar obtener area
         // implementar obtener perimetro
+
+        Circulo circulo1 = new Circulo("Verde", true, 5.67f);
+        Rectangulo rectangulo1 = new Rectangulo("Morado", false, 3.4f, 6.89f);
+
+        System.out.println(circulo1);
+        System.out.println(circulo1.obtenerPerimetro());
+        System.out.println(circulo1.obtenerArea());
     }
 
 }

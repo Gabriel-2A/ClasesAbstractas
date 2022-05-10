@@ -32,7 +32,16 @@ public class Rectangulo extends Figura{
 
     @Override
     public double obtenerPerimetro() {
+        return (ancho + alto) * 2;
+    }
 
-        return 0;
+    @Override
+    public String toString() {
+        return "Rectangulo{" +
+                "color='" + color + '\'' +
+                ", relleno=" + relleno +
+                ", ancho=" + ancho +
+                ", alto=" + alto +
+                '}';
     }
 }

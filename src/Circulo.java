@@ -17,15 +17,20 @@ public class Circulo extends Figura{
 
     @Override
     public double obtenerArea() {
-
-
-
-        return 0;
+        return Math.PI * Math.pow(radio, 2);
     }
 
     @Override
     public double obtenerPerimetro() {
+        return 2 * Math.PI * radio;
+    }
 
-        return 0;
+    @Override
+    public String toString() {
+        return "Circulo{" +
+                "radio=" + radio +
+                ", color='" + color + '\'' +
+                ", relleno=" + relleno +
+                '}';
     }
 }
