@@ -28,12 +28,12 @@ public class Main {
         Rectangulo rectangulo1 = new Rectangulo("Morado", false, 3.4f, 6.89f);
 
         System.out.println(circulo1);
-        System.out.println(circulo1.obtenerPerimetro());
-        System.out.println(circulo1.obtenerArea());
+        System.out.println("Perimetro = " + circulo1.obtenerPerimetro());
+        System.out.println("Area = " + circulo1.obtenerArea());
 
         System.out.println(rectangulo1);
-        System.out.println(rectangulo1.obtenerPerimetro());
-        System.out.println(rectangulo1.obtenerArea());
+        System.out.println("Perimetro = " + rectangulo1.obtenerPerimetro());
+        System.out.println("Area = " + rectangulo1.obtenerArea());
     }
 
 }
