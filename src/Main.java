@@ -30,6 +30,10 @@ public class Main {
         System.out.println(circulo1);
         System.out.println(circulo1.obtenerPerimetro());
         System.out.println(circulo1.obtenerArea());
+
+        System.out.println(rectangulo1);
+        System.out.println(rectangulo1.obtenerPerimetro());
+        System.out.println(rectangulo1.obtenerArea());
     }
 
 }
