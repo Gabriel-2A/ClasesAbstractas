@@ -30,6 +30,9 @@ public class Main {
         System.out.println(circulo1);
         System.out.println("Perimetro = " + circulo1.obtenerPerimetro());
         System.out.println("Area = " + circulo1.obtenerArea());
+        circulo1.rellenar();
+        circulo1.duplicar();
+        System.out.println(circulo1.hacerPequeño().obtenerArea());
 
         System.out.println(rectangulo1);
         System.out.println("Perimetro = " + rectangulo1.obtenerPerimetro());

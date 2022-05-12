@@ -1,4 +1,4 @@
-public class Circulo extends Figura{
+public class Circulo extends Figura implements AccionesFiguraInterface{
 
     private double radio;
 
@@ -23,6 +23,22 @@ public class Circulo extends Figura{
     @Override
     public double obtenerPerimetro() {
         return 2 * Math.PI * radio;
+    }
+
+    @Override
+    public void rellenar() {
+        System.out.println("Rellenado");
+    }
+
+    @Override
+    public void duplicar() {
+        System.out.println("duplicando");
+    }
+
+    @Override
+    public Figura hacerPequeño() {
+        Circulo circuloPequeno = new Circulo(this.color, this.relleno, this.radio);
+        return circuloPequeno;
     }
 
     @Override
